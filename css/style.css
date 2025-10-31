@@ -33,7 +33,7 @@ img {
 }
 
 .superinfo {
-    max-widht: 960px;
+    max-width: 960px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -146,7 +146,8 @@ img {
 
 .funcionalidades h1 {
     font-size: 3em;
-    margin: 0 10px 60px 10px
+    margin: 0 10px 10px 10px;
+    text-align: center; 
 }
 
 .funcionalidades-container {
@@ -167,23 +168,14 @@ img {
     padding: 60px 20px;
 }
 
-.basico {
-    border-top: 8px solid #5351dc ;
-}
 
-.intermediario {
-    border-top: 8px solid #7f7f81 ;
-}
-
-.completo {
-    border-top: 8px solid #918b33 ;
-}
-
-/*beneficios*/
+/*beneficios/preços*/
 
 .beneficios {
+    max-width: 960px;
+    margin: 10px auto;
     background: #f7f7f7;
-    padding: 60px;
+  /*  padding: 60px; */
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -270,10 +262,10 @@ img {
     .beneficios .beneficios-item:nth-child(1) {
         order: 1; /* Básico fica em primeiro */
     }
-    .beneficios .beneficios-item:nth-child(3) {
+    .beneficios .beneficios-item:nth-child(2) {
         order: 2; /* Completo fica em segundo */
     }
-    .beneficios .beneficios-item:nth-child(2) {
+    .beneficios .beneficios-item:nth-child(3) {
         order: 3; /* Intermediário fica em terceiro */
     }
     
@@ -284,10 +276,10 @@ img {
 .qualidade {
     max-width: 960px;
     margin: 60px auto;
-    /* [CORRIGIDO] 'display: flex' removido daqui */
+    /*  'display: flex' removido daqui */
 }
 
-/* [CORRIGIDO] 'display: flex' movido para cá */
+/*  'display: flex' movido para cá */
 .qualidade-container {
     display: flex;
     flex-wrap: wrap;
@@ -412,4 +404,3 @@ img {
 	text-align: center;
 	font-size: 2.25em;
 	color: #122ab2;
-}
